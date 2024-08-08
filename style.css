@@ -1,0 +1,72 @@
+body {
+    background-color:blueviolet;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 1000px;
+    height: 555px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid  black;
+    background-position: bottom center;
+    background-size: cover;
+} 
+.container .right{
+    float: right;
+    width: 56%;
+    height: 555px;
+    background: url(https://thumbs.dreamstime.com/b/hands-computer-desk-using-laptop-rustic-wood-background-cup-tea-book-globe-glasses-53253551.jpg);
+    background-size: cover;
+
+} 
+.container .left{
+    border: 5px solid  gray;
+    height: 550px;
+    box-shadow: 20px grey;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+.formbox {
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.formbox input {
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid gray;
+    margin-bottom: 30px;
+}
+
+.radio {
+    display: flex;
+    width: 40px;
+}
+
+button {
+    width: 41%;
+    height: 40px;
+    background-color:blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.sm {
+    text-align: center;
+    margin-top: 30px;
+}
+small {
+    color: blueviolet;
+}
+
+
+
+
+
